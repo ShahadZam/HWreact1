@@ -43,7 +43,7 @@ function App() {
         <input type="text" className=''  defaultValue="" onChange={(e) => setnum1(e.target.value)} placeholder='Enter first number' />
         <input type="text" defaultValue="" onChange={(e) => setnum2(e.target.value)} placeholder='Enter second number' />
       </div>
-        <button  onClick={() => setresult(num1 + num2)} >+</button>
+        <button  onClick={() => setresult(parseInt(num1) + parseInt(num2))} >+</button>
         <button  onClick={() => setresult(num1 - num2)} >-</button>
         <button  onClick={() => setresult(num1 / num2)} >/</button>
         <button  onClick={() => setresult(num1 * num2)} >*</button>
