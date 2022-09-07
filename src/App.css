@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 187, 180);
+    height: 100vh;
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 30px;
+  }
+  
+ 
+  
+  h6 {
+
+    text-align: center;
+    
+  }
+  button{
+    width: 15%;
+    
+    margin: 15px;
+
+    
+    
+  }
+
+  .num{
+    background-color: bisque;
+    border-radius: 2rem;
+    border: 1rem;
+  }
